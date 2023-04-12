@@ -7,4 +7,31 @@
 body {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1F2937;
+  padding: 10px;
+}
+
+.container-1.header {
+  color: white;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: white;
 }
