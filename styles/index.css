@@ -126,3 +126,32 @@ h2 {
   font-weight: 700;
   text-align: right;
 }
+
+.container-5 {
+  display: flex;
+  justify-content: center;
+  background: lightpink;
+}
+
+.call-to-action.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+  background: #3882F6;
+  border-radius: 5px;
+  color: white;
+  padding: 35px 75px;
+}
+
+.call-to-action.header {
+  font-weight: 700;
+}
+
+.sign-up {
+  border: 3px solid white;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 10px 30px;
+  cursor: pointer;
+}
